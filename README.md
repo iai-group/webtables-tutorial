@@ -31,3 +31,9 @@ For each of these tasks we identify seminal work, describe the key ideas behind 
       -  Row extension
       -  Column extension
       -  Data completion
+
+## Presenters
+
+**Shuo Zhang** is a final-year PhD student at the University of Stavanger, under the supervision of Prof. Krisztian Balog. He is currently visiting Prof. Jamie Callan at Carnegie Mellon University, working as a short-term visiting scholar. Zhang's main research interests include information retrieval and text mining. His PhD research is concerned with developing intelligent search technology for tabular data. He has studied the problems of table retrieval and generation extensively and published about it at SIGIR'17, SIGIR'18, and WWW'18. 
+
+**Krisztian Balog** is a full professor at the University of Stavanger, heading the Information Access and Interaction (IAI) group. He is currently on a sabbatical, working as a Staff Visiting Faculty Researcher at Google, London, UK. Balog's general research interests lie in the use and development of information retrieval, information extraction, and machine learning techniques for intelligent information access tasks. His current research concerns entity-oriented and semantic search, and novel evaluation methodologies. He has authored over 100 peer-reviewed publications and has recently published the (open access) book Entity-Oriented Search (Springer, 2018). In recognition of his significant and influential contributions to the area of semantic search and evaluation methodology, Balog was recipient of the Karen Spärck Jones Award in 2018. [[homepage](http://krisztianbalog.com/)][[Google scholar](https://scholar.google.com/citations?user=1z918TYAAAAJ&hl=en)]
