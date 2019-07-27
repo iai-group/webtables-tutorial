@@ -10,27 +10,31 @@ For each of these tasks we identify seminal work, describe the key ideas behind 
 
 ## Outline
 
-   * Introduction
-      -  Motivating scenarios
-      -  Table types
-      -  Table extraction and table corpora
-   * Table interpretation
-      -  Column type identification
-      -  Entity linking in tables
-      -  Relation extraction
-   * Table search
-      -  Keyword query search
-      -  Search by table
-   * Question answering on tables
-      -  QA using a single table
-      -  QA using multiple tables
-   * Knowledge base augmentation
-      -  Tables for knowledge exploration
-      -  Knowledge base augmentation and construction
-   * Table augmentation (and wrap-up)
-      -  Row extension
-      -  Column extension
-      -  Data completion
+   * Introduction [[slides](slides/part-1.pdf)]
+      - Motivating scenarios
+      - Table types
+      - Table extraction and table corpora
+   * Table interpretation [[slides](slides/part-2.pdf)]
+      - Column type identification
+      - Entity linking in tables
+      - Relation extraction
+   * Knowledge base augmentation [[slides](slides/part-3.pdf)]
+      - Tables for knowledge exploration
+      - Knowledge base augmentation and construction
+   * Table search [[slides](slides/part-4.pdf)]
+      - Keyword query search
+      - Search by table
+   * Table augmentation [[slides](slides/part-5.pdf)]
+      - Row extension
+      - Column extension
+      - Data completion
+   * Question answering on tables, other tasks, and future directions [[slides](slides/part-6.pdf)]
+      - QA using a single table and multiple tables
+      - Other tasks (table and title generation)
+      - Future directions
+
+[[Complete bibliography (BibTeX)](references.bib)]
+
 
 ## Presenters
 

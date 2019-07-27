@@ -1,0 +1,1002 @@
+% 
+% Web Table Extraction, Retrieval and Augmentation tutorial at SIGIR'19
+% Authors: Shuo Zhang and Krisztian Balog
+%
+
+@inproceedings{Li:2019:TNW,
+ author = {Zhang, Li and Zhang, Shuo and Balog, Krisztian},
+ title = {Table2Vec: Neural Word and Entity Embeddings for Table Population and Retrieval},
+ booktitle = {Proc. of SIGIR'19},
+ year = {2019},
+ pages = {1029--1032},
+} 
+
+@inproceedings{Le:2014:DRS,
+ title = 	{Distributed Representations of Sentences and Documents},
+ author = {Quoc Le and Tomas Mikolov},
+ booktitle = 	{Proc. of ICML '14},
+ pages = {1188--1196},
+ year = {2014},
+ volume = {32},
+}
+
+@inproceedings{Chen:2016:ESL,
+ author = {Chen, Jing and Xiong, Chenyan and Callan, Jamie},
+ booktitle = {Proc. of SIGIR '16},
+ pages = {737--740},
+ title = {An Empirical Study of Learning to Rank for Entity Search},
+ year = {2016}
+}
+
+@inproceedings{Cannaviccio:2018:LWT,
+ author = {Cannaviccio, Matteo and Ariemma, Lorenzo and Barbosa, Denilson and Merialdo, Paolo},
+ title = {Leveraging Wikipedia Table Schemas for Knowledge Graph Augmentation},
+ booktitle = {Proc. of WebDB'18},
+ year = {2018},
+ pages = {1--6},
+} 
+
+@inproceedings{Yoones:2018:KBA,
+  title = {Knowledge Base Augmentation using Tabular Data},
+  author = {Yoones A. Sekhavat and Francesco Di Paolo and Denilson Barbosa and Paolo Merialdo},
+  booktitle = {Prof. of WWW '14},
+  year = {2014}
+}
+
+@inproceedings{Ran:2015:DKB,
+ author = {Ran, Chenwei and Shen, Wei and Wang, Jianyong and Zhu, Xuan},
+ title = {Domain-Specific Knowledge Base Enrichment Using Wikipedia Tables},
+ booktitle = {Proc. of ICDM '15},
+ year = {2015},
+ pages = {349--358},
+} 
+
+@inproceedings{Lehmberg:2016:LPC,
+ author = {Lehmberg, Oliver and Ritze, Dominique and Meusel, Robert and Bizer, Christian},
+ title = {A Large Public Corpus of Web Tables Containing Time and Context Metadata},
+ booktitle = {Proceedings of the 25th International Conference Companion on World Wide Web},
+ series = {WWW '16 Companion},
+ year = {2016},
+ pages = {75--76},
+ publisher = {International World Wide Web Conferences Steering Committee},
+} 
+
+@inproceedings{Chen:2013:AWS,
+ author = {Chen, Zhe and Cafarella, Michael},
+ title = {Automatic Web Spreadsheet Data Extraction},
+ booktitle = {Proceedings of the 3rd International Workshop on Semantic Search Over the Web},
+ series = {SSW '13},
+ year = {2013},
+ pages = {1--8},
+} 
+
+@inproceedings{Balakrishnan:2015:AWT,
+ author = {Sreeram Balakrishnan and Alon Y. Halevy and Boulos Harb and Hongrae Lee and Jayant Madhavan and Afshin Rostamizadeh and Warren Shen and Kenneth Wilder and Fei Wu and Cong Yu},
+ title = {Applying WebTables in Practice},  
+ booktitle = {Proceedings of the Conference on Innovative Data Systems Research},
+ series = {CIDR '15}, 
+ year = {2015}
+}
+
+@inproceedings{DEberiusBHTAL:2015:BDW,
+  author    = {Julian Eberius and
+               Katrin Braunschweig and
+               Markus Hentsch and
+               Maik Thiele and
+               Ahmad Ahmadov and
+               Wolfgang Lehner},
+  title     = {Building the Dresden Web Table Corpus: {A} Classification Approach},
+  booktitle = {2nd {IEEE/ACM} International Symposium on Big Data Computing, {BDC}
+               2015, Limassol, Cyprus, December 7-10, 2015},
+  pages     = {41--50},
+  year      = {2015},
+}
+
+@inproceedings{Wang:2002:MLB,
+ author = {Wang, Yalin and Hu, Jianying},
+ title = {A Machine Learning Based Approach for Table Detection on the Web},
+ booktitle = {Proceedings of the 11th International Conference on World Wide Web},
+ series = {WWW '02},
+ year = {2002},
+ pages = {242--250},
+} 
+
+@inproceedings{Crestan:2011:WTC,
+ author = {Crestan, Eric and Pantel, Patrick},
+ title = {Web-scale Table Census and Classification},
+ booktitle = {Proceedings of the Fourth ACM International Conference on Web Search and Data Mining},
+ series = {WSDM '11},
+ year = {2011},
+ pages = {545--554},
+}
+
+@article{Lautert:2013:WTT,
+ author = {Lautert, Larissa R. and Scheidt, Marcelo M. and Dorneles, Carina F.},
+ title = {Web Table Taxonomy and Formalization},
+ journal = {SIGMOD Rec.},
+ issue_date = {September 2013},
+ volume = {42},
+ number = {3},
+ month = oct,
+ year = {2013},
+ issn = {0163-5808},
+ pages = {28--33},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{Wang:2002:DTH,
+ author = {Wang, Yalin and Hu, Jianying},
+ title = {Detecting Tables in HTML Documents},
+ booktitle = {Proceedings of the 5th International Workshop on Document Analysis Systems V},
+ series = {DAS '02},
+ year = {2002},
+ isbn = {3-540-44068-2},
+ pages = {249--260},
+ publisher = {Springer-Verlag},
+ address = {London, UK, UK},
+} 
+
+@inproceedings{cafarella:2008:URW,
+  author = {Cafarella, Michael J. and Halevy, Alon Y. and Zhang, Yang and Wang, Daisy Zhe and 0002, Eugene Wu},
+  title = {Uncovering the Relational Web},  
+  booktitle = {Proceedings of the Eleventh International Workshop on the Web and Databases},
+  series = {WebDB '08},
+  year = {2008}
+}
+
+@article{Cafarella:2008:WEP,
+ author = {Cafarella, Michael J. and Halevy, Alon and Wang, Daisy Zhe and Wu, Eugene and Zhang, Yang},
+ title = {WebTables: Exploring the Power of Tables on the Web},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {August 2008},
+ volume = {1},
+ number = {1},
+ month = aug,
+ year = {2008},
+ issn = {2150-8097},
+ pages = {538--549},
+ publisher = {VLDB Endowment},
+}
+
+@article{Cafarella:2009:DIR,
+ author = {Cafarella, Michael J. and Halevy, Alon and Khoussainova, Nodira},
+ title = {Data Integration for the Relational Web},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {August 2009},
+ volume = {2},
+ number = {1},
+ month = aug,
+ year = {2009},
+ issn = {2150-8097},
+ pages = {1090--1101},
+ publisher = {VLDB Endowment},
+}
+
+@inproceedings{Bhagavatula:2013:MEM,
+ author = {Bhagavatula, Chandra Sekhar and Noraset, Thanapon and Downey, Doug},
+ title = {Methods for Exploring and Mining Tables on Wikipedia},
+ booktitle = {Proceedings of the ACM SIGKDD Workshop on Interactive Data Exploration and Analytics},
+ series = {IDEA '13},
+ year = {2013},
+ pages = {18--26},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@article{Pimplikar:2012:ATQ,
+ author = {Pimplikar, Rakesh and Sarawagi, Sunita},
+ title = {Answering Table Queries on the Web Using Column Keywords},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {June 2012},
+ volume = {5},
+ number = {10},
+ month = jun,
+ year = {2012},
+ issn = {2150-8097},
+ pages = {908--919},
+ publisher = {VLDB Endowment},
+} 
+
+@inproceedings{AhmadovTELW:2015:THI,
+ author = {Ahmadov, Ahmad and Thiele, Maik and Eberius, Julian and Lehner, Wolfgang and Wrembel, Robert},
+ title = {Towards a Hybrid Imputation Approach Using Web Tables},
+ booktitle = {Proceedings of the IEEE 2nd International Symposium on Big Data Computing},
+ series = {BDC '15},  
+ year = {2015},
+ pages = {21-30},
+ publisher = {IEEE},
+ isbn = {978-0-7695-5696-3},
+}
+
+@article{Lehmberg:2015:MSJ,
+ author = {Lehmberg, Oliver and Ritze, Dominique and Ristoski, Petar and Meusel, Robert and Paulheim, Heiko and Bizer, Christian},
+ title = {The Mannheim Search Join Engine},
+ journal = {Web Semant.},
+ issue_date = {December 2015},
+ volume = {35},
+ number = {P3},
+ month = dec,
+ year = {2015},
+ issn = {1570-8268},
+ pages = {159--166},
+ publisher = {Elsevier Science Publishers B. V.},
+} 
+
+@inproceedings{DasSarma:2012:FRT,
+ author = {Das Sarma, Anish and Fang, Lujun and Gupta, Nitin and Halevy, Alon and Lee, Hongrae and Wu, Fei and Xin, Reynold and Yu, Cong},
+ title = {Finding Related Tables},
+ booktitle = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '12},
+ year = {2012},
+ pages = {817--828},
+ publisher = {ACM},
+} 
+
+@inproceedings{Yakout:2012:IEA,
+ author = {Yakout, Mohamed and Ganjam, Kris and Chakrabarti, Kaushik and Chaudhuri, Surajit},
+ title = {InfoGather: Entity Augmentation and Attribute Discovery by Holistic Matching with Web Tables},
+ booktitle = {Proceedings of the 2012 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '12},
+ year = {2012},
+ pages = {97--108},
+ publisher = {ACM},
+} 
+
+@inproceedings{Zhang:2013:ISM,
+ author = {Zhang, Meihui and Chakrabarti, Kaushik},
+ title = {InfoGather+: Semantic Matching and Annotation of Numeric and Time-varying Attributes in Web Tables},
+ booktitle = {Proceedings of the 2013 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '13},
+ year = {2013},
+ pages = {145--156},
+ publisher = {ACM},
+} 
+
+@inproceedings{Nguyen:2015:RSS,
+ author = {Nguyen, Thanh Tam and Nguyen, Quoc Viet Hung and Matthias, Weidlich, and Karl, Aberer},
+ title = {Result Selection and Summarization for Web Table Search},
+ booktitle = {Proceedings of the 31st International Conference on Data Engineering},
+ series = {ISDE '15},
+ pages= {231--242},
+ year = {2015}
+}
+
+@inproceedings{Bron:2013:EBE,
+ author = {Bron, Marc and Balog, Krisztian and de Rijke, Maarten},
+ title = {Example Based Entity Search in the Web of Data},
+ booktitle = {Proceedings of the 35th European Conference on Advances in Information Retrieval},
+ series = {ECIR'13},
+ pages = {392--403},
+ publisher = {Springer-Verlag},
+ year = {2013}
+} 
+
+@inproceedings{He:2011:SEI,
+ author = {He, Yeye and Xin, Dong},
+ title = {SEISA: Set Expansion by Iterative Similarity Aggregation},
+ booktitle = {Proceedings of the 20th International Conference on World Wide Web},
+ series = {WWW '11},
+ year = {2011},
+ pages = {427--436},
+ publisher = {ACM},
+} 
+
+@inproceedings{Metzger:2013:QQE,
+ author = {Metzger, Steffen and Schenkel, Ralf and Sydow, Marcin},
+ title = {QBEES: query by entity examples},
+ booktitle = {Proceedings of the 22nd ACM international conference on Conference on information and knowledge management},
+ series = {CIKM '13},
+ year = {2013},
+ pages = {1829--1832},
+ publisher = {ACM},
+} 
+
+@inproceedings{Metzger:2014:ASE,
+ author = {Metzger, Steffen and Schenkel, Ralf and Sydow, Marcin},
+ title = {Aspect-Based Similar Entity Search in Semantic Knowledge Graphs with Diversity-Awareness and Relaxation},
+ booktitle = {Proceedings of the 2014 IEEE/WIC/ACM International Joint Conferences on Web Intelligence (WI) and Intelligent Agent Technologies (IAT) - Volume 01},
+ series = {WI-IAT '14},
+ year = {2014},
+ pages = {60--69},
+ publisher = {IEEE Computer Society},
+} 
+
+@inproceedings{Wang:2015:CEU,
+ author = {Wang, Chi and Chakrabarti, Kaushik and He, Yeye and Ganjam, Kris and Chen, Zhimin and Bernstein, Philip A.},
+ title = {Concept Expansion Using Web Tables},
+ booktitle = {Proceedings of the 24th International Conference on World Wide Web},
+ series = {WWW '15},
+ year = {2015},
+ pages = {1198--1208},
+ publisher = {International World Wide Web Conferences Steering Committee},
+} 
+
+@inproceedings{Zhang:2017:ESA,
+ author = {Zhang, Shuo and Balog, Krisztian},
+ title = {EntiTables: Smart Assistance for Entity-Focused Tables},
+ booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR '17},
+ year = {2017},
+ pages = {255--264},
+ publisher = {ACM},
+} 
+
+@article{Jayant:2009:HDW,
+  author    = {Jayant Madhavan and
+               Loredana Afanasiev and
+               Lyublena Antova and
+               Alon Y. Halevy},
+  title     = {Harnessing the Deep Web: Present and Future},
+  journal   = {CoRR},
+  volume    = {abs/0909.1785},
+  year      = {2009},
+}
+
+@inproceedings{Yin:2016:NEL,
+ author = {Yin, Pengcheng and Lu, Zhengdong and Li, Hang and Kao, Ben},
+ title = {Neural Enquirer: Learning to Query Tables in Natural Language},
+ booktitle = {Proceedings of the Twenty-Fifth International Joint Conference on Artificial Intelligence},
+ series = {IJCAI'16},
+ year = {2016},
+ pages = {2308--2314},
+ publisher = {AAAI Press},
+} 
+
+@article{Arvind:2015:NPI,
+  author    = {Arvind Neelakantan and
+               Quoc V. Le and
+               Ilya Sutskever},
+  title     = {Neural Programmer: Inducing Latent Programs with Gradient Descent},
+  journal   = {CoRR},
+  volume    = {abs/1511.04834},
+  year      = {2015},
+}
+
+@inproceedings{Sarawagi:2014:OQQ,
+ author = {Sarawagi, Sunita and Chakrabarti, Soumen},
+ title = {Open-domain Quantity Queries on Web Tables: Annotation, Response, and Consensus Models},
+ booktitle = {Proceedings of the 20th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+ series = {KDD '14},
+ year = {2014},
+ pages = {711--720},
+ publisher = {ACM},
+} 
+
+
+@inproceedings{Banerjee:2009:LRQ,
+ author = {Banerjee, Somnath and Chakrabarti, Soumen and Ramakrishnan, Ganesh},
+ title = {Learning to Rank for Quantity Consensus Queries},
+ booktitle = {Proceedings of the 32Nd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR '09},
+ year = {2009},
+ pages = {243--250},
+ publisher = {ACM},
+} 
+
+@article{Venetis:2011:RST,
+ author = {Venetis, Petros and Halevy, Alon and Madhavan, Jayant and Pa\c{s}ca, Marius and Shen, Warren and Wu, Fei and Miao, Gengxin and Wu, Chung},
+ title = {Recovering Semantics of Tables on the Web},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {June 2011},
+ volume = {4},
+ number = {9},
+ month = jun,
+ year = {2011},
+ issn = {2150-8097},
+ pages = {528--538},
+ publisher = {VLDB Endowment},
+} 
+
+@article{Chirigati:2016:KEU,
+ author = {Chirigati, Fernando and Liu, Jialu and Korn, Flip and Wu, You (Will) and Yu, Cong and Zhang, Hao},
+ title = {Knowledge Exploration Using Tables on the Web},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {November 2016},
+ volume = {10},
+ number = {3},
+ month = nov,
+ year = {2016},
+ issn = {2150-8097},
+ pages = {193--204},
+ publisher = {VLDB Endowment},
+} 
+
+@inproceedings{Bhagavatula:2015:TEL,
+ author = {Bhagavatula, Chandra Sekhar and Noraset, Thanapon and Downey, Doug},
+ title = {TabEL: Entity Linking in Web Tables},
+ booktitle = {Proceedings of the 14th International Conference on The Semantic Web - ISWC 2015 - Volume 9366},
+ year = {2015},
+ pages = {425--441},
+ publisher = {Springer-Verlag New York, Inc.},
+} 
+
+@inproceedings{Yoones:2014:KBA,
+  author    = {Yoones A. Sekhavat and
+               Francesco Di Paolo and
+               Denilson Barbosa and
+               Paolo Merialdo},
+  title     = {Knowledge Base Augmentation using Tabular Data},
+  booktitle = {Proceedings of the Workshop on Linked Data on the Web co-located with
+               the 23rd International World Wide Web Conference {(WWW} 2014), Seoul,
+               Korea, April 8, 2014.},
+  year      = {2014},
+}
+
+@inproceedings{Ritze:2016:PPW,
+ author = {Ritze, Dominique and Lehmberg, Oliver and Oulabi, Yaser and Bizer, Christian},
+ title = {Profiling the Potential of Web Tables for Augmenting Cross-domain Knowledge Bases},
+ booktitle = {Proceedings of the 25th International Conference on World Wide Web},
+ series = {WWW '16},
+ year = {2016},
+ pages = {251--261},
+ publisher = {International World Wide Web Conferences Steering Committee},
+} 
+
+@inproceedings{Ritze:2015:MHT,
+ author = {Ritze, Dominique and Lehmberg, Oliver and Bizer, Christian},
+ title = {Matching HTML Tables to DBpedia},
+ booktitle = {Proceedings of the 5th International Conference on Web Intelligence, Mining and Semantics},
+ series = {WIMS '15},
+ year = {2015},
+ pages = {10:1--10:6},
+ articleno = {10},
+ publisher = {ACM},
+}
+
+@inproceedings{RitzeB:2017:MWT,
+  author    = {Dominique Ritze and
+               Christian Bizer},
+  title     = {Matching Web Tables To DBpedia - {A} Feature Utility Study},
+  booktitle = {Proceedings of the 20th International Conference on Extending Database
+               Technology, {EDBT} 2017, Venice, Italy, March 21-24, 2017.},
+  pages     = {210--221},
+  year      = {2017},
+}
+
+@inproceedings{Ibrahim:2016:MSE,
+ author = {Ibrahim, Yusra and Riedewald, Mirek and Weikum, Gerhard},
+ title = {Making Sense of Entities and Quantities in Web Tables},
+ booktitle = {Proceedings of the 25th ACM International on Conference on Information and Knowledge Management},
+ series = {CIKM '16},
+ year = {2016},
+ pages = {1703--1712},
+ publisher = {ACM},
+} 
+ 
+@article{Zhang:2013:MEA,
+ author ={X. Zhang and Y. Chen and X. Du and L. Zou},
+ title = {Mapping Entity-Attribute Web Tables to Web-Scale Knowledge Bases},
+ journal = {Database Systems for Advanced Applications},
+ year = {2013},
+ pages = {108--122},
+} 
+
+@inproceedings{Dong:2014:KVW,
+ author = {Dong, Xin and Gabrilovich, Evgeniy and Heitz, Geremy and Horn, Wilko and Lao, Ni and Murphy, Kevin and Strohmann, Thomas and Sun, Shaohua and Zhang, Wei},
+ title = {Knowledge Vault: A Web-scale Approach to Probabilistic Knowledge Fusion},
+ booktitle = {Proceedings of the 20th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+ series = {KDD '14},
+ year = {2014},
+ pages = {601--610},
+ publisher = {ACM},
+} 
+
+@inproceedings{Mulwad:2013:SMP,
+ author = {Mulwad, Varish and Finin, Tim and Joshi, Anupam},
+ title = {Semantic Message Passing for Generating Linked Data from Tables},
+ booktitle = {Proceedings of the 12th International Semantic Web Conference - Part I},
+ series = {ISWC '13},
+ year = {2013},
+ pages = {363--378},
+ publisher = {Springer-Verlag New York, Inc.},
+} 
+
+@inproceedings{Mulwad:2010:ULD,
+ author = {Mulwad, Varish and Finin, Tim and Syed, Zareen and Joshi, Anupam},
+ title = {Using Linked Data to Interpret Tables},
+ booktitle = {Proceedings of the First International Conference on Consuming Linked Data - Volume 665},
+ year = {2010},
+ series = {COLD'10},
+ pages = {109--120},
+ publisher = {CEUR-WS.org},
+} 
+
+@inproceedings{NishidaSHM:2017:USS,
+  author    = {Kyosuke Nishida and
+               Kugatsu Sadamitsu and
+               Ryuichiro Higashinaka and
+               Yoshihiro Matsuo},
+  title     = {Understanding the Semantic Structures of Tables with a Hybrid Deep
+               Neural Network Architecture},
+  booktitle = {Proceedings of the Thirty-First {AAAI} Conference on Artificial Intelligence,
+               February 4-9, 2017, San Francisco, California, {USA.}},
+  pages     = {168--174},
+  year      = {2017},
+}
+
+@inproceedings{Zwicklbauer:2013:TDW,
+ author = {Zwicklbauer, Stefan and Einsiedler, Christoph and Granitzer, Michael and Seifert, Christin},
+ title = {Towards Disambiguating Web Tables},
+ booktitle = {Proceedings of the 12th International Semantic Web Conference (Posters \& Demonstrations Track) - Volume 1035},
+ series = {ISWC-PD '13},
+ year = {2013},
+ pages = {205--208},
+ publisher = {CEUR-WS.org},
+} 
+
+@inproceedings{HassanzadehWRS:2015:ULC,
+  author = {Hassanzadeh, Oktie and Ward, Michael J. and Rodriguez-Muro, Mariano and Srinivas, Kavitha},
+  title = {Understanding a large corpus of web tables through matching with knowledge bases: an empirical study},
+  pages = {25-34},
+  publisher = {CEUR-WS.org},
+  series = {CEUR Workshop Proceedings},
+  volume = {1545},
+  year = {2015}
+}
+
+@inproceedings{Wang:2012:UTW,
+ author = {Wang, Jingjing and Wang, Haixun and Wang, Zhongyuan and Zhu, Kenny Q.},
+ title = {Understanding Tables on the Web},
+ booktitle = {Proceedings of the 31st International Conference on Conceptual Modeling},
+ series = {ER'12},
+ year = {2012},
+ pages = {141--155},
+ publisher = {Springer-Verlag},
+}
+
+@inproceedings{Govindaraju:2013:UTC,
+ title = {Understanding Tables in Context Using Standard NLP Toolkits},
+ author = {Vidhya Govindaraju and Ce Zhang and Christopher R{\'e}},
+ booktitle = {Proc. of ACL'13},
+ year = {2013}
+}
+
+@inproceedings{Wang:2015:CRW,
+ author = {Wang, Hong and Liu, Anqi and Wang, Jing and Ziebart, Brian D. and Yu, Clement T. and Shen, Warren},
+ title = {Context Retrieval for Web Tables},
+ booktitle = {Proceedings of the 2015 International Conference on The Theory of Information Retrieval},
+ series = {ICTIR '15},
+ year = {2015},
+ pages = {251--260},
+ publisher = {ACM},
+}
+
+@inproceedings{Fan:2014:AHM,
+ author = {Ju Fan and Meiyu Lu and Beng Chin Ooi and Wang-Chiew Tan and Meihui Zhang},
+ title = {A Hybrid Machine-Crowdsourcing System for Matching Web Tables},
+ booktitle = {Proceedings of the IEEE 30th International Conference on Data Engineering},
+ series = {ICDE '14},
+ pages = {976--987},
+ year = {2014},
+}
+
+@article{Limaye:2010:ASW,
+ author = {Limaye, Girija and Sarawagi, Sunita and Chakrabarti, Soumen},
+ title = {Annotating and Searching Web Tables Using Entities, Types and Relationships},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {September 2010},
+ volume = {3},
+ number = {1-2},
+ month = sep,
+ year = {2010},
+ pages = {1338--1347},
+ publisher = {VLDB Endowment},
+}
+
+@inproceedings{Tyree:2011:PBR,
+ author = {Tyree, Stephen and Weinberger, Kilian Q. and Agrawal, Kunal and Paykin, Jennifer},
+ title = {Parallel Boosted Regression Trees for Web Search Ranking},
+ booktitle = {Proceedings of the 20th International Conference on World Wide Web},
+ series = {WWW '11},
+ year = {2011},
+ pages = {387--396},
+ publisher = {ACM},
+} 
+
+@article{Qin:2010:LBC,
+ author = {Qin, Tao and Liu, Tie-Yan and Xu, Jun and Li, Hang},
+ title = {LETOR: A Benchmark Collection for Research on Learning to Rank for Information Retrieval},
+ journal = {Inf. Retr.},
+ issue_date = {August 2010},
+ volume = {13},
+ number = {4},
+ month = aug,
+ year = {2010},
+ issn = {1386-4564},
+ pages = {346--374},
+ publisher = {Kluwer Academic Publishers},
+ address = {Hingham, MA, USA},
+}
+
+@inproceedings{Hasibi:2017:NTE,
+ author = {Hasibi, Faegheh and Balog, Krisztian and Garigliotti, Dar\'{\i}o and Zhang, Shuo},
+ title = {Nordlys: A Toolkit for Entity-Oriented and Semantic Search},
+ booktitle = {Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+ series = {SIGIR '17},
+ year = {2017},
+ pages = {1289--1292},
+ publisher = {ACM},
+}
+
+@article{Adelfio:2013:SET,
+ author = {Adelfio, Marco D. and Samet, Hanan},
+ title = {Schema Extraction for Tabular Data on the Web},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {April 2013},
+ volume = {6},
+ number = {6},
+ month = apr,
+ year = {2013},
+ issn = {2150-8097},
+ pages = {421--432},
+ publisher = {VLDB Endowment},
+} 
+
+@inproceedings{PasupatL:2015:CSP,
+  author    = {Panupong Pasupat and
+               Percy Liang},
+  title     = {Compositional Semantic Parsing on Semi-Structured Tables},
+  booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational
+               Linguistics and the 7th International Joint Conference on Natural
+               Language Processing of the Asian Federation of Natural Language Processing,
+               {ACL} 2015, July 26-31, 2015, Beijing, China, Volume 1: Long Papers},
+  pages     = {1470--1480},
+  year      = {2015},
+}
+
+@inproceedings{Sun:2016:TCS,
+ author = {Sun, Huan and Ma, Hao and He, Xiaodong and Yih, Wen-tau and Su, Yu and Yan, Xifeng},
+ title = {Table Cell Search for Question Answering},
+ booktitle = {Proceedings of the 25th International Conference on World Wide Web},
+ series = {WWW '16},
+ year = {2016},
+ pages = {771--782},
+ publisher = {International World Wide Web Conferences Steering Committee},
+}
+
+@article{Ion:1995:NLI,
+  author    = {Ion Androutsopoulos and
+               Graeme D. Ritchie and
+               Peter Thanisch},
+  title     = {Natural Language Interfaces to Databases - An Introduction},
+  journal   = {CoRR},
+  volume    = {cmp-lg/9503016},
+  year      = {1995},
+}
+
+@article{Li:2014:CIN,
+ author = {Li, Fei and Jagadish, H. V.},
+ title = {Constructing an Interactive Natural Language Interface for Relational Databases},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {September 2014},
+ volume = {8},
+ number = {1},
+ month = sep,
+ year = {2014},
+ issn = {2150-8097},
+ pages = {73--84},
+ publisher = {VLDB Endowment},
+} 
+
+@inproceedings{Li:2005:NIN,
+ author = {Li, Yunyao and Yang, Huahai and Jagadish, H. V.},
+ title = {NaLIX: An Interactive Natural Language Interface for Querying XML},
+ booktitle = {Proceedings of the 2005 ACM SIGMOD International Conference on Management of Data},
+ series = {SIGMOD '05},
+ year = {2005},
+ location = {Baltimore, Maryland},
+ pages = {900--902},
+ publisher = {ACM},
+} 
+
+@inproceedings{Popescu:2003:TTN,
+ author = {Popescu, Ana-Maria and Etzioni, Oren and Kautz, Henry},
+ title = {Towards a Theory of Natural Language Interfaces to Databases},
+ booktitle = {Proceedings of the 8th International Conference on Intelligent User Interfaces},
+ series = {IUI '03},
+ year = {2003},
+ location = {Miami, Florida, USA},
+ pages = {149--157},
+ publisher = {ACM},
+} 
+	
+@inproceedings{Berant:2013:SPF,
+  author = {Berant, Jonathan and Chou, Andrew and Frostig, Roy and Liang, Percy},
+  booktitle = {Proceedings of the 2013 Conference on Empirical Methods in Natural Language Processing},
+  series = {EMNLP '13},
+  pages = {1533-1544},
+  publisher = {ACL},
+  title = {Semantic Parsing on Freebase from Question-Answer Pairs},
+  year = {2013}
+}
+
+@inproceedings{Fader:2014:OQA,
+ author = {Fader, Anthony and Zettlemoyer, Luke and Etzioni, Oren},
+ title = {Open Question Answering over Curated and Extracted Knowledge Bases},
+ booktitle = {Proceedings of the 20th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},
+ series = {KDD '14},
+ year = {2014},
+ pages = {1156--1165},
+ publisher = {ACM},
+}
+
+@inproceedings{Panupong:2015:CSP,
+  author    = {Panupong Pasupat and
+               Percy Liang},
+  title     = {Compositional Semantic Parsing on Semi-Structured Tables},
+  booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational
+               Linguistics and the 7th International Joint Conference on Natural
+               Language Processing of the Asian Federation of Natural Language Processing},
+  series    = {ACL '15},
+  pages     = {1470--1480},
+  year      = {2015},
+}
+
+@inproceedings{Shen:2014:LSR,
+ author = {Shen, Yelong and He, Xiaodong and Gao, Jianfeng and Deng, Li and Mesnil, Gr{\'e}goire},
+ title = {Learning Semantic Representations Using Convolutional Neural Networks for Web Search},
+ booktitle = {Proceedings of the 23rd International Conference on World Wide Web},
+ series = {WWW '14 Companion},
+ year = {2014},
+ pages = {373--374},
+ publisher = {ACM},
+}
+
+@article{Gupta:2009:ATA,
+ author = {Gupta, Rahul and Sarawagi, Sunita},
+ title = {Answering Table Augmentation Queries from Unstructured Lists on the Web},
+ journal = {VLDB Endow.},
+ issue_date = {August 2009},
+ volume = {2},
+ number = {1},
+ month = aug,
+ year = {2009},
+ issn = {2150-8097},
+ pages = {289--300},
+ publisher = {VLDB Endowment},
+}
+
+@inproceedings{Wu:2016:ELW,
+ author= {Wu, Tianxing and Yan, Shengjia and Piao, Zhixin and Xu, Liang and Wang, Ruiming and Qi, Guilin},
+ title = {Entity Linking in Web Tables with Multiple Linked Knowledge Bases},
+ booktitle = {Semantic Technology},
+ year = {2016},
+ publisher = {Springer International Publishing},
+ pages = {239--253},
+}
+
+@inproceedings{Zhang:2018:AHT,
+ author = {Zhang, Shuo and Balog, Krisztian},
+ title = {Ad Hoc Table Retrieval Using Semantic Similarity},
+ booktitle = {Proceedings of The Web Conference},
+ series = {WWW '18},
+ year = {2018},
+ pages = {1553--1562},
+} 
+
+@inproceedings{Zhang:2017:DPF,
+ author = {Shuo Zhang and Krisztian Balog},
+ title = {Design Patterns for Fusion-Based Object Retrieval},
+ booktitle = {Proceedings of the 39th European conference on Advances in Information Retrieval},
+ series = {ECIR '17},
+ publisher = {Springer},
+ pages = {684--690},
+ year = {2017}
+}
+
+@inproceedings{Efthymiou:2017:MWT,
+ author = {Efthymiou, Vasilis and Hassanzadeh, Oktie and Rodriguez-Muro, Mariano and Christophides, Vassilis},
+ title = {Matching Web Tables with Knowledge Base Entities: From Entity Lookups to Entity Embeddings},
+ booktitle = {Proceedings of the 16th International Semantic Web Conference},
+ series = {ISWC '17},
+ publisher = {Springer},
+ pages = {260--277},
+ year = {2017}
+}
+
+@phdthesis{Syed:2010:WNH,
+ author = {Syed, Zareen Saba},
+ advisor = {Finin, Timothy W.},
+ title = {Wikitology: A Novel Hybrid Knowledge Base Derived from Wikipedia},
+ year = {2010},
+ isbn = {978-1-124-22735-1},
+ note = {AAI3422868},
+ publisher = {University of Maryland at Baltimore County},
+ address = {Catonsville, MD, USA},
+}
+
+@article{Yang:2014:FPK,
+ author = {Yang, Mohan and Ding, Bolin and Chaudhuri, Surajit and Chakrabarti, Kaushik},
+ title = {Finding Patterns in a Knowledge Base Using Keywords to Compose Table Answers},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {October 2014},
+ volume = {7},
+ number = {14},
+ year = {2014},
+ pages = {1809--1820},
+}
+
+@inproceedings{Zhang:2018:OTG,
+	title = {On-the-fly Table Generation},
+	author = {Shuo Zhang and Krisztian Balog},
+	year = {2018},
+	booktitle = {Proceedings of 41st International ACM SIGIR Conference on Research and Development in Information Retrieval},
+	series = {SIGIR '18},
+	pages = {595--604}
+}
+
+@article{Codd:1970:RMD,
+ author = {Codd, E. F.},
+ title = {A Relational Model of Data for Large Shared Data Banks},
+ journal = {Commun. ACM},
+ issue_date = {June 1970},
+ volume = {13},
+ number = {6},
+ month = jun,
+ year = {1970},
+ pages = {377--387},
+} 
+
+@article{Lehmberg:2017:SWT,
+ author = {Lehmberg, Oliver and Bizer, Christian},
+ title = {Stitching Web Tables for Improving Matching Quality},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {August 2017},
+ volume = {10},
+ number = {11},
+ month = aug,
+ year = {2017},
+ pages = {1502--1513},
+} 
+
+@inproceedings{Wang:2017:SMR,
+ author = {Wang, Yue and He, Yeye},
+ title = {Synthesizing Mapping Relationships Using Table Corpus},
+ booktitle = {Proc. of SIGMOD '17},
+ year = {2017},
+ pages = {1117--1132},
+} 
+
+@article{He:2018:TES,
+ author = {He, Yeye and Chu, Xu and Ganjam, Kris and Zheng, Yudian and Narasayya, Vivek and Chaudhuri, Surajit},
+ title = {Transform-data-by-example (TDE): An Extensible Search Engine for Data Transformations},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {June 2018},
+ volume = {11},
+ number = {10},
+ month = jun,
+ year = {2018},
+ pages = {1165--1177},
+} 
+
+@inproceedings{Lehmberg:2016:WTC,
+ author = {Lehmberg, Oliver and Bizer, Christian},
+ title = {Web Table Column Categorisation and Profiling},
+ booktitle = {Proc. of WebDB '16},
+ year = {2016},
+ pages = {4:1--4:7},
+}
+
+@article{Nargesian:2018:TUS,
+ author = {Nargesian, Fatemeh and Zhu, Erkang and Pu, Ken Q. and Miller, Ren{\'e}e J.},
+ title = {Table Union Search on Open Data},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {March 2018},
+ volume = {11},
+ number = {7},
+ month = mar,
+ year = {2018},
+ issn = {2150-8097},
+ pages = {813--825},
+} 
+
+@inproceedings{Braunschweig:2015:CCE,
+ author = {Braunschweig, Katrin and Thiele, Maik and Eberius, Julian and Lehner, Wolfgang},
+ title = {Column-specific Context Extraction for Web Tables},
+ booktitle = {Proceedings of the 30th Annual ACM Symposium on Applied Computing},
+ series = {SAC '15},
+ year = {2015},
+ pages = {1072--1077},
+} 
+
+@inproceedings{Braunschweig:2016:PWT,
+ author = {Braunschweig, Katrin and Thiele, Maik and  Koci, Elvis and Lehner, Wolfgang},
+ title = {Putting Web Tables into Context},
+ booktitle = {Proceedings of the 8th International Joint Conference on Knowledge Discovery, Knowledge Engineering and Knowledge Management (IC3K 2016)},
+ series = {IC3K '16},
+ year = {2016},
+ pages = {158--165},
+} 
+
+@inproceedings{Braunschweig:2015:FWT,
+author = {Braunschweig, Katrin and Thiele, Maik and Lehner, Wolfgang},
+ title = {From Web Tables to Concepts: A Semantic Normalization Approach},
+ booktitle = {Conceptual Modeling},
+ series = {IC3K '16},
+ year = {2015},
+ pages = {247--260},
+}
+
+@article{Zhang:2017:EAE,
+ title = {Effective and efficient Semantic Table Interpretation using TableMiner+},
+ author = {Ziqi Zhang},
+ journal = {Semantic Web},
+ year = {2017},
+ volume = {8},
+ pages = {921-957}
+}
+
+@inproceedings{Munoz:2014:ULD,
+ author = {Mu\~{n}oz, Emir and Hogan, Aidan and Mileo, Alessandra},
+ title = {Using Linked Data to Mine RDF from Wikipedia's Tables},
+ booktitle = {Proceedings of the 7th ACM International Conference on Web Search and Data Mining},
+ series = {WSDM '14},
+ year = {2014},
+ pages = {533--542},
+} 
+
+@inproceedings{Ahmad:2003:TSS,
+ author = {Ahmad, Yanif and Antoniu, Tudor and Goldwater, Sharon and Krishnamurthi, Shriram},
+ title = {A Type System for Statically Detecting Spreadsheet Errors},
+ booktitle = {Proc. of ASE'03},
+ year = {2003},
+ pages = {174--183},
+} 
+
+@inproceedings{Hung:2011:SCD,
+ author = {Hung, Vu and Benatallah, Boualem and Saint-Paul, Regis},
+ title = {Spreadsheet-based Complex Data Transformation},
+ booktitle = {Proc. of CIKM '11},
+ year = {2011},
+ pages = {1749--1754},
+} 
+
+@inproceedings{Fetahu:2019:TAD,
+ author = {Fetahu, Besnik and Anand, Avishek and Koutraki, Maria},
+ title = {TableNet: An Approach for Determining Fine-grained Relations for Wikipedia Tables},
+ booktitle = {Proc. of WWW '19},
+ year = {2019},
+ pages = {2736--2742},
+}
+
+@inproceedings{Hancock:2019:GTW,
+ author = {Hancock, Braden and Lee, Hongrae and Yu, Cong},
+ title = {Generating Titles for Web Tables},
+ booktitle = {Proc. of WWW '19},
+ year = {2019},
+ pages = {638--647},
+} 
+
+@inproceedings{Zhang:2018:SES,
+ author = {Zhang, Shuo},
+ title = {SmartTable: Equipping Spreadsheets with Intelligent AssistanceFunctionalities},
+ booktitle = {Proc. of SIGIR '18},
+ year = {2019},
+ pages = {1447--1447},
+} 
+
+@inproceedings{Mazumdar:2019:ATC,
+ author = {Mazumdar, Suvodeep and Zhang, Ziqi},
+ title = {A Tool for Creating and Visualizing Semantic Annotations on Relational Tables},
+ booktitle = {Proc. of ESWC '19},
+ year = {2019},
+ pages = {1447--1447},
+} 
+
+@inproceedings{Banko:2008:TBO,
+ title = {The Tradeoffs Between Open and Traditional Relation Extraction},
+ author = {Banko, Michele and Etzioni, Oren},
+ booktitle = {Proceedings of ACL-08: HLT},
+ year = {2008},
+ pages = {28--36},
+}
+
+@article{Zhang:2019:RRT,
+  author    = {Shuo Zhang and
+               Krisztian Balog},
+  title     = {Recommending Related Tables},
+  journal   = {CoRR},
+  volume    = {abs/1907.03595},
+  year      = {2019},
+}
