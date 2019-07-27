@@ -33,7 +33,7 @@ For each of these tasks we identify seminal work, describe the key ideas behind 
       - Other tasks (table and title generation)
       - Future directions
 
-[[Complete bibliography (BibTeX)](references.bib)]
+[Complete bibliography (BibTeX)](references.bib)
 
 
 ## Presenters
